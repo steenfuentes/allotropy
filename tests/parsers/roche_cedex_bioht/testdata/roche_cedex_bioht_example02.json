@@ -1,8 +1,7 @@
 {
     "$asm.manifest": "http://purl.allotrope.org/manifests/cell-culture-analyzer/BENCHLING/2023/09/cell-culture-analyzer.manifest",
     "measurement aggregate document": {
-        "measurement identifier": "72c0ccbc-d0b1-47d7-acb3-5184ab28a687",
-        "data processing time": "2022-10-20T16:34:37+00:00",
+        "measurement identifier": "ROCHE_CEDEX_BIOHT_TEST_ID_0",
         "analyst": "ADMIN",
         "device system document": {
             "model number": "CEDEX BIO HT",
@@ -12,10 +11,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLA0",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:15:09+00:00",
+                "measurement time": "2022-10-17T15:13:20+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -115,10 +113,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLA1",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:44:43+00:00",
+                "measurement time": "2022-10-17T15:43:39+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -218,10 +215,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLA2",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:16:44+00:00",
+                "measurement time": "2022-10-17T16:15:30+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -321,10 +317,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLA3",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:49:29+00:00",
+                "measurement time": "2022-10-17T16:48:25+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -424,10 +419,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLA4",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:29:17+00:00",
+                "measurement time": "2022-10-17T17:28:14+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -527,10 +521,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLA5",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:54:56+00:00",
+                "measurement time": "2022-10-17T17:54:15+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -630,10 +623,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLA6",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:20:58+00:00",
+                "measurement time": "2022-10-17T18:19:53+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -733,10 +725,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLB0",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:18:53+00:00",
+                "measurement time": "2022-10-17T15:17:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -836,10 +827,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLB1",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:50:53+00:00",
+                "measurement time": "2022-10-17T15:48:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -939,10 +929,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLB2",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:22:55+00:00",
+                "measurement time": "2022-10-17T16:21:42+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1042,10 +1031,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLB3",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:54:48+00:00",
+                "measurement time": "2022-10-17T16:53:11+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1145,10 +1133,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLB4",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:33:32+00:00",
+                "measurement time": "2022-10-17T17:32:50+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1248,10 +1235,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLB5",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:58:49+00:00",
+                "measurement time": "2022-10-17T17:58:08+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1351,10 +1337,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLB6",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:25:23+00:00",
+                "measurement time": "2022-10-17T18:24:40+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1454,10 +1439,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLC0",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:24:43+00:00",
+                "measurement time": "2022-10-17T15:23:18+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1557,10 +1541,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLC1",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:55:39+00:00",
+                "measurement time": "2022-10-17T15:54:27+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1660,10 +1643,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLC2",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:27:54+00:00",
+                "measurement time": "2022-10-17T16:26:59+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1763,10 +1745,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLC3",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:00:27+00:00",
+                "measurement time": "2022-10-17T16:59:12+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1866,10 +1847,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLC4",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:37:37+00:00",
+                "measurement time": "2022-10-17T17:36:55+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -1969,10 +1949,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLC5",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:03:04+00:00",
+                "measurement time": "2022-10-17T18:02:22+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2072,10 +2051,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLC6",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:29:28+00:00",
+                "measurement time": "2022-10-17T18:28:35+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2175,10 +2153,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLD0",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:30:21+00:00",
+                "measurement time": "2022-10-17T15:28:47+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2278,10 +2255,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLD1",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:00:39+00:00",
+                "measurement time": "2022-10-17T15:59:34+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2381,10 +2357,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLD2",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:33:32+00:00",
+                "measurement time": "2022-10-17T16:31:58+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2484,10 +2459,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLD3",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:14:36+00:00",
+                "measurement time": "2022-10-17T17:13:42+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2587,10 +2561,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLD4",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:41:20+00:00",
+                "measurement time": "2022-10-17T17:40:26+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2690,10 +2663,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLD5",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:08:23+00:00",
+                "measurement time": "2022-10-17T18:07:42+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2793,10 +2765,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLD6",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:34:57+00:00",
+                "measurement time": "2022-10-17T18:33:53+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2896,10 +2867,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLE0",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:35:10+00:00",
+                "measurement time": "2022-10-17T15:34:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -2999,10 +2969,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLE1",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:06:06+00:00",
+                "measurement time": "2022-10-17T16:04:11+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3102,10 +3071,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLE2",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:39:02+00:00",
+                "measurement time": "2022-10-17T16:38:09+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3205,10 +3173,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLE3",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:18:20+00:00",
+                "measurement time": "2022-10-17T17:16:32+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3308,10 +3275,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLE4",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:46:49+00:00",
+                "measurement time": "2022-10-17T17:45:33+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3411,10 +3377,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLE5",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:11:55+00:00",
+                "measurement time": "2022-10-17T18:11:02+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3514,10 +3479,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLE6",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:38:39+00:00",
+                "measurement time": "2022-10-17T18:37:35+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3617,10 +3581,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLF0",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T15:40:38+00:00",
+                "measurement time": "2022-10-17T15:39:23+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3720,10 +3683,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLF1",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:11:36+00:00",
+                "measurement time": "2022-10-17T16:10:34+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3823,10 +3785,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLF2",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T16:44:21+00:00",
+                "measurement time": "2022-10-17T16:43:07+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -3926,10 +3887,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLF3",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:24:09+00:00",
+                "measurement time": "2022-10-17T17:22:45+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4029,10 +3989,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLF4",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T17:50:53+00:00",
+                "measurement time": "2022-10-17T17:49:48+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4132,10 +4091,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLF5",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:17:24+00:00",
+                "measurement time": "2022-10-17T18:15:59+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4235,10 +4193,9 @@
             {
                 "sample document": {
                     "sample identifier": "SMPLF6",
-                    "sample role type": "Sample",
                     "batch identifier": "FBATCH_123"
                 },
-                "measurement time": "2022-10-17T18:43:36+00:00",
+                "measurement time": "2022-10-17T18:42:33+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4338,7 +4295,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_1",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:12:47+00:00",
@@ -4353,10 +4309,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_1",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:45:25+00:00",
+                "measurement time": "2022-10-20T09:44:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4383,7 +4338,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_10",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:15:19+00:00",
@@ -4398,10 +4352,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_10",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:50:11+00:00",
+                "measurement time": "2022-10-20T09:49:49+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4428,7 +4381,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_11",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:15:29+00:00",
@@ -4443,10 +4395,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_11",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:50:43+00:00",
+                "measurement time": "2022-10-20T09:50:20+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4473,7 +4424,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_12",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:15:40+00:00",
@@ -4488,10 +4438,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_12",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:51:56+00:00",
+                "measurement time": "2022-10-20T09:50:52+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4518,7 +4467,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_13",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:15:51+00:00",
@@ -4533,10 +4481,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_13",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:53:32+00:00",
+                "measurement time": "2022-10-20T09:52:28+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4563,7 +4510,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_14",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:16:01+00:00",
@@ -4578,10 +4524,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_14",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:54:26+00:00",
+                "measurement time": "2022-10-20T09:53:54+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4608,7 +4553,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_15",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:16:12+00:00",
@@ -4623,10 +4567,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_15",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:55:07+00:00",
+                "measurement time": "2022-10-20T09:54:35+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4653,7 +4596,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_16",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:16:22+00:00",
@@ -4668,10 +4610,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_16",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:56:01+00:00",
+                "measurement time": "2022-10-20T09:55:30+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4698,7 +4639,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_17",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:16:33+00:00",
@@ -4713,10 +4653,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_17",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:56:42+00:00",
+                "measurement time": "2022-10-20T09:56:11+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4743,7 +4682,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_18",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:16:44+00:00",
@@ -4758,10 +4696,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_18",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:57:15+00:00",
+                "measurement time": "2022-10-20T09:56:54+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4788,7 +4725,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_19",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:16:54+00:00",
@@ -4803,10 +4739,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_19",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:57:47+00:00",
+                "measurement time": "2022-10-20T09:57:26+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4833,7 +4768,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_2",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:12:50+00:00",
@@ -4848,10 +4782,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_2",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:45:55+00:00",
+                "measurement time": "2022-10-20T09:45:33+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4878,7 +4811,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_20",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:17:05+00:00",
@@ -4893,10 +4825,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_20",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:58:19+00:00",
+                "measurement time": "2022-10-20T09:57:57+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4923,7 +4854,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_21",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:17:17+00:00",
@@ -4938,10 +4868,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_21",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:58:50+00:00",
+                "measurement time": "2022-10-20T09:58:29+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -4968,7 +4897,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_22",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:17:27+00:00",
@@ -4983,10 +4911,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_22",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:59:22+00:00",
+                "measurement time": "2022-10-20T09:59:02+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5013,7 +4940,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_23",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:17:38+00:00",
@@ -5028,10 +4954,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_23",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:00:27+00:00",
+                "measurement time": "2022-10-20T09:59:44+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5058,7 +4983,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_24",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:17:49+00:00",
@@ -5073,10 +4997,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_24",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:01:20+00:00",
+                "measurement time": "2022-10-20T10:00:37+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5103,7 +5026,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_25",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:17:59+00:00",
@@ -5118,10 +5040,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_25",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:02:13+00:00",
+                "measurement time": "2022-10-20T10:01:30+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5148,7 +5069,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_26",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:18:10+00:00",
@@ -5163,10 +5083,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_26",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:02:55+00:00",
+                "measurement time": "2022-10-20T10:02:23+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5193,7 +5112,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_27",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:18:21+00:00",
@@ -5208,10 +5126,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_27",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:03:38+00:00",
+                "measurement time": "2022-10-20T10:03:06+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5238,7 +5155,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_28",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:18:31+00:00",
@@ -5253,10 +5169,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_28",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:04:20+00:00",
+                "measurement time": "2022-10-20T10:03:47+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5283,7 +5198,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_29",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:18:42+00:00",
@@ -5298,10 +5212,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_29",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:04:51+00:00",
+                "measurement time": "2022-10-20T10:04:31+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5328,7 +5241,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_3",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:14:07+00:00",
@@ -5343,10 +5255,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_3",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:46:27+00:00",
+                "measurement time": "2022-10-20T09:46:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5373,7 +5284,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_30",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:18:52+00:00",
@@ -5388,10 +5298,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_30",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:05:34+00:00",
+                "measurement time": "2022-10-20T10:05:14+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5418,7 +5327,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_31",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:19:03+00:00",
@@ -5433,10 +5341,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_31",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:06:16+00:00",
+                "measurement time": "2022-10-20T10:05:44+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5463,7 +5370,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_32",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:19:14+00:00",
@@ -5478,10 +5384,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_32",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:06:49+00:00",
+                "measurement time": "2022-10-20T10:06:27+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5508,7 +5413,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_33",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:19:24+00:00",
@@ -5523,10 +5427,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_33",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:07:32+00:00",
+                "measurement time": "2022-10-20T10:06:58+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5553,7 +5456,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_34",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:19:35+00:00",
@@ -5568,10 +5470,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_34",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:08:13+00:00",
+                "measurement time": "2022-10-20T10:07:42+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5598,7 +5499,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_35",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:19:45+00:00",
@@ -5613,10 +5513,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_35",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:09:07+00:00",
+                "measurement time": "2022-10-20T10:08:25+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5643,7 +5542,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_36",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:19:56+00:00",
@@ -5658,10 +5556,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_36",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:10:00+00:00",
+                "measurement time": "2022-10-20T10:09:38+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5688,7 +5585,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_37",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:20:07+00:00",
@@ -5703,10 +5599,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_37",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:10:52+00:00",
+                "measurement time": "2022-10-20T10:10:20+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5733,7 +5628,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_38",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:20:17+00:00",
@@ -5748,10 +5642,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_38",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:11:34+00:00",
+                "measurement time": "2022-10-20T10:11:04+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5778,7 +5671,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_39",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:20:28+00:00",
@@ -5793,10 +5685,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_39",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:12:18+00:00",
+                "measurement time": "2022-10-20T10:11:46+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5823,7 +5714,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_4",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:14:14+00:00",
@@ -5838,10 +5728,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_4",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:46:58+00:00",
+                "measurement time": "2022-10-20T09:46:37+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5868,7 +5757,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_40",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:20:39+00:00",
@@ -5883,10 +5771,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_40",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:13:21+00:00",
+                "measurement time": "2022-10-20T10:12:49+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5913,7 +5800,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_41",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:20:49+00:00",
@@ -5928,10 +5814,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_41",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:14:04+00:00",
+                "measurement time": "2022-10-20T10:13:31+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -5958,7 +5843,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_42",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:21:00+00:00",
@@ -5973,10 +5857,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_42",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:14:36+00:00",
+                "measurement time": "2022-10-20T10:14:14+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6003,7 +5886,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_43",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:21:10+00:00",
@@ -6018,10 +5900,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_43",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:15:07+00:00",
+                "measurement time": "2022-10-20T10:14:47+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6048,7 +5929,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_44",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:21:21+00:00",
@@ -6063,10 +5943,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_44",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:15:50+00:00",
+                "measurement time": "2022-10-20T10:15:19+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6093,7 +5972,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_45",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:21:32+00:00",
@@ -6108,10 +5986,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_45",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:16:22+00:00",
+                "measurement time": "2022-10-20T10:16:00+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6138,7 +6015,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_46",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:21:42+00:00",
@@ -6153,10 +6029,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_46",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:17:05+00:00",
+                "measurement time": "2022-10-20T10:16:43+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6183,7 +6058,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_47",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:21:53+00:00",
@@ -6198,10 +6072,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_47",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:18:07+00:00",
+                "measurement time": "2022-10-20T10:17:36+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6228,7 +6101,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_48",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:22:03+00:00",
@@ -6243,10 +6115,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_48",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:18:39+00:00",
+                "measurement time": "2022-10-20T10:18:19+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6273,7 +6144,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_49",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:22:14+00:00",
@@ -6288,10 +6158,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_49",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:19:34+00:00",
+                "measurement time": "2022-10-20T10:18:51+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6318,7 +6187,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_5",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:14:26+00:00",
@@ -6333,10 +6201,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_5",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:47:30+00:00",
+                "measurement time": "2022-10-20T09:47:09+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6363,7 +6230,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_50",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:22:25+00:00",
@@ -6378,10 +6244,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_50",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:20:36+00:00",
+                "measurement time": "2022-10-20T10:20:04+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6408,7 +6273,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_51",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:22:35+00:00",
@@ -6423,10 +6287,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_51",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:21:20+00:00",
+                "measurement time": "2022-10-20T10:20:48+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6453,7 +6316,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_52",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:22:46+00:00",
@@ -6468,10 +6330,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_52",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:22:12+00:00",
+                "measurement time": "2022-10-20T10:21:51+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6498,7 +6359,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_53",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:22:57+00:00",
@@ -6513,10 +6373,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_53",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:22:55+00:00",
+                "measurement time": "2022-10-20T10:22:34+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6543,7 +6402,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_54",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:23:07+00:00",
@@ -6558,10 +6416,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_54",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:23:26+00:00",
+                "measurement time": "2022-10-20T10:23:04+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6588,7 +6445,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_55",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:23:18+00:00",
@@ -6603,10 +6459,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_55",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:24:08+00:00",
+                "measurement time": "2022-10-20T10:23:37+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6633,7 +6488,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_56",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:23:28+00:00",
@@ -6648,10 +6502,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_56",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:24:40+00:00",
+                "measurement time": "2022-10-20T10:24:20+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6678,7 +6531,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_57",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:23:39+00:00",
@@ -6693,10 +6545,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_57",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:25:12+00:00",
+                "measurement time": "2022-10-20T10:24:52+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6723,7 +6574,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_58",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:23:50+00:00",
@@ -6738,10 +6588,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_58",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:25:55+00:00",
+                "measurement time": "2022-10-20T10:25:24+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6768,7 +6617,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_59",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:24:00+00:00",
@@ -6783,10 +6631,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_59",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:26:48+00:00",
+                "measurement time": "2022-10-20T10:26:06+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6813,7 +6660,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_6",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:14:36+00:00",
@@ -6828,10 +6674,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_6",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:48:02+00:00",
+                "measurement time": "2022-10-20T09:47:41+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6858,7 +6703,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_60",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:24:11+00:00",
@@ -6873,10 +6717,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_60",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:27:41+00:00",
+                "measurement time": "2022-10-20T10:27:10+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6903,7 +6746,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_61",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:24:21+00:00",
@@ -6918,10 +6760,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_61",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:28:34+00:00",
+                "measurement time": "2022-10-20T10:28:03+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6948,7 +6789,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_62",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:24:32+00:00",
@@ -6963,10 +6803,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_62",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:29:17+00:00",
+                "measurement time": "2022-10-20T10:28:56+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -6993,7 +6832,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_63",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:24:43+00:00",
@@ -7008,10 +6846,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_63",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:29:49+00:00",
+                "measurement time": "2022-10-20T10:29:27+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7038,7 +6875,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_64",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:24:53+00:00",
@@ -7053,10 +6889,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_64",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:30:42+00:00",
+                "measurement time": "2022-10-20T10:30:09+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7083,7 +6918,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_65",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:25:04+00:00",
@@ -7098,10 +6932,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_65",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:31:24+00:00",
+                "measurement time": "2022-10-20T10:31:03+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7128,7 +6961,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_66",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:25:15+00:00",
@@ -7143,10 +6975,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_66",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:32:07+00:00",
+                "measurement time": "2022-10-20T10:31:35+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7173,7 +7004,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_67",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:25:25+00:00",
@@ -7188,10 +7018,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_67",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:32:49+00:00",
+                "measurement time": "2022-10-20T10:32:18+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7218,7 +7047,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_68",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:25:36+00:00",
@@ -7233,10 +7061,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_68",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:33:22+00:00",
+                "measurement time": "2022-10-20T10:33:01+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7263,7 +7090,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_69",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:25:46+00:00",
@@ -7278,10 +7104,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_69",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:33:54+00:00",
+                "measurement time": "2022-10-20T10:33:31+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7308,7 +7133,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_7",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:14:47+00:00",
@@ -7323,10 +7147,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_7",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:48:35+00:00",
+                "measurement time": "2022-10-20T09:48:13+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7353,7 +7176,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_70",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:25:57+00:00",
@@ -7368,10 +7190,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_70",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:34:36+00:00",
+                "measurement time": "2022-10-20T10:34:03+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7398,7 +7219,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_71",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:26:08+00:00",
@@ -7413,10 +7233,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_71",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:35:39+00:00",
+                "measurement time": "2022-10-20T10:34:46+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7443,7 +7262,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_72",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:26:18+00:00",
@@ -7458,10 +7276,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_72",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:36:32+00:00",
+                "measurement time": "2022-10-20T10:36:01+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7488,7 +7305,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_73",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:26:29+00:00",
@@ -7503,10 +7319,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_73",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:37:25+00:00",
+                "measurement time": "2022-10-20T10:36:54+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7533,7 +7348,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_74",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:26:40+00:00",
@@ -7548,10 +7362,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_74",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:37:57+00:00",
+                "measurement time": "2022-10-20T10:37:36+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7578,7 +7391,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_75",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:26:50+00:00",
@@ -7593,10 +7405,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_75",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:38:40+00:00",
+                "measurement time": "2022-10-20T10:38:07+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7623,7 +7434,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_76",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:27:01+00:00",
@@ -7638,10 +7448,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_76",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:39:21+00:00",
+                "measurement time": "2022-10-20T10:38:49+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7668,7 +7477,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_77",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:27:11+00:00",
@@ -7683,10 +7491,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_77",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:40:05+00:00",
+                "measurement time": "2022-10-20T10:39:33+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7713,7 +7520,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_78",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:27:22+00:00",
@@ -7728,10 +7534,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_78",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:40:58+00:00",
+                "measurement time": "2022-10-20T10:40:35+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7758,7 +7563,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_79",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:27:33+00:00",
@@ -7773,10 +7577,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_79",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:41:29+00:00",
+                "measurement time": "2022-10-20T10:41:08+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7803,7 +7606,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_8",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:14:57+00:00",
@@ -7818,10 +7620,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_8",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:49:07+00:00",
+                "measurement time": "2022-10-20T09:48:45+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7848,7 +7649,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_80",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:27:43+00:00",
@@ -7863,10 +7663,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_80",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:42:22+00:00",
+                "measurement time": "2022-10-20T10:41:51+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7893,7 +7692,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_81",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:27:54+00:00",
@@ -7908,10 +7706,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_81",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:42:54+00:00",
+                "measurement time": "2022-10-20T10:42:34+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7938,7 +7735,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_82",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:28:04+00:00",
@@ -7953,10 +7749,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_82",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:43:26+00:00",
+                "measurement time": "2022-10-20T10:43:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -7983,7 +7778,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_83",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:28:15+00:00",
@@ -7998,10 +7792,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_83",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:44:29+00:00",
+                "measurement time": "2022-10-20T10:43:58+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8028,7 +7821,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_84",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:28:26+00:00",
@@ -8043,10 +7835,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_84",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:45:02+00:00",
+                "measurement time": "2022-10-20T10:44:41+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8073,7 +7864,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_85",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:28:36+00:00",
@@ -8088,10 +7878,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_85",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:45:54+00:00",
+                "measurement time": "2022-10-20T10:45:23+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8118,7 +7907,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_86",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:28:47+00:00",
@@ -8133,10 +7921,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_86",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:46:38+00:00",
+                "measurement time": "2022-10-20T10:46:06+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8163,7 +7950,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_87",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:28:58+00:00",
@@ -8178,10 +7964,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_87",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:47:20+00:00",
+                "measurement time": "2022-10-20T10:46:58+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8208,7 +7993,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_88",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:29:08+00:00",
@@ -8223,10 +8007,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_88",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:48:02+00:00",
+                "measurement time": "2022-10-20T10:47:42+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8253,7 +8036,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_89",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:29:19+00:00",
@@ -8268,10 +8050,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_89",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:48:56+00:00",
+                "measurement time": "2022-10-20T10:48:23+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8298,7 +8079,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_9",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:15:08+00:00",
@@ -8313,10 +8093,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_9",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T09:49:39+00:00",
+                "measurement time": "2022-10-20T09:49:17+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8343,7 +8122,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_90",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:29:29+00:00",
@@ -8358,10 +8136,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_90",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:49:27+00:00",
+                "measurement time": "2022-10-20T10:49:07+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8388,7 +8165,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_91",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:29:40+00:00",
@@ -8403,10 +8179,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_91",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:49:59+00:00",
+                "measurement time": "2022-10-20T10:49:38+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8433,7 +8208,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_92",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:29:51+00:00",
@@ -8448,10 +8222,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_92",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:50:53+00:00",
+                "measurement time": "2022-10-20T10:50:20+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8478,7 +8251,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_93",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:30:01+00:00",
@@ -8493,10 +8265,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_93",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:51:23+00:00",
+                "measurement time": "2022-10-20T10:51:02+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8523,7 +8294,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_94",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:30:12+00:00",
@@ -8538,10 +8308,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_94",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:52:07+00:00",
+                "measurement time": "2022-10-20T10:51:35+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8568,7 +8337,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_95",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:30:23+00:00",
@@ -8583,10 +8351,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_95",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:52:59+00:00",
+                "measurement time": "2022-10-20T10:52:27+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8613,7 +8380,6 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_96",
-                    "sample role type": "Sample",
                     "batch identifier": "IBATCH_111"
                 },
                 "measurement time": "2022-10-17T08:30:33+00:00",
@@ -8628,10 +8394,9 @@
             {
                 "sample document": {
                     "sample identifier": "Sample_96",
-                    "sample role type": "Sample",
                     "batch identifier": "PBATCH_123"
                 },
-                "measurement time": "2022-10-20T10:53:53+00:00",
+                "measurement time": "2022-10-20T10:53:11+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -8655,6 +8420,7 @@
                     "unit": "OD"
                 }
             }
-        ]
+        ],
+        "data processing time": "2022-10-20T16:34:37+00:00"
     }
 }

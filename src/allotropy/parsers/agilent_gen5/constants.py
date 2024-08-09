@@ -1,11 +1,56 @@
 from enum import Enum
-from typing import Optional
+
+MULTIPLATE_FILE_ERROR = "Only a single plate per file can be processed at this time. Please refer to Gen5 documentation for how to generate single plate exports from multi-plate experiments"
+MULTIPLE_READ_MODE_ERROR = "Only a single endpoint read per file can be processed at this time. Please refer to the Gen5 documentation for supported exports"
+NO_PLATE_DATA_ERROR = "No plate data found in file."
+UNSUPPORTED_READ_TYPE_ERROR = (
+    "Only Endpoint measurements can be processed at this time."
+)
+
+HEADER_PREFIXES = frozenset(
+    {
+        "Software Version",
+        "Experiment File Path:",
+        "Protocol File Path:",
+        "Plate Number",
+        "Date",
+        "Time",
+        "Reader Type:",
+        "Reader Serial Number:",
+        "Reading Type",
+    },
+)
+
+
+EMISSION_KEY = "Emission"
+EXCITATION_KEY = "Excitation"
+GAIN_KEY = "Gain"
+OPTICS_KEY = "Optics"
+MEASUREMENTS_DATA_POINT_KEY = "Measurements/Data Point"
+MIRROR_KEY = "Mirror"
+PATHLENGTH_CORRECTION_KEY = "Pathlength Correction"
+READ_HEIGHT_KEY = "Read Height"
+READ_SPEED_KEY = "Read Speed"
+WAVELENGTHS_KEY = "Wavelengths"
+
+DEFAULT_SOFTWARE_NAME = "Gen5"
+DEVICE_TYPE = "plate reader"
+
+FILENAME_REGEX = r"^\d{6}_\d{6}_(?P<plate_identifier>.[^_]*)_.*\.txt$"
+
+NAN_EMISSION_EXCITATION = ["Full light", "Plug", "Hole"]
 
 
 class ReadMode(str, Enum):
     ABSORBANCE = "Absorbance"
     FLUORESCENCE = "Fluorescence"
     LUMINESCENCE = "Luminescence"
+    ALPHALISA = "Alpha"
+
+
+UNSUPPORTED_READ_MODE_ERROR = (
+    f"Read mode not found; expected to find one of {sorted(ReadMode._member_names_)}."
+)
 
 
 class ReadType(str, Enum):
@@ -13,14 +58,3 @@ class ReadType(str, Enum):
     KINETIC = "Kinetic"
     AREASCAN = "Area Scan"
     SPECTRAL = "Spectral"
-
-
-READTYPE_TO_DIMENSIONS: dict[ReadType, list[tuple[str, str, Optional[str]]]] = {
-    ReadType.ENDPOINT: [("int", "wavelength", "nm")],
-    ReadType.KINETIC: [("double", "time", "s")],
-    ReadType.AREASCAN: [
-        ("int", "x", None),
-        ("int", "y", None),
-    ],
-    ReadType.SPECTRAL: [("int", "wavelength", "nm")],
-}

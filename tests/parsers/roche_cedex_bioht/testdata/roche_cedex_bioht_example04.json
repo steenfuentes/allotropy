@@ -1,8 +1,7 @@
 {
     "$asm.manifest": "http://purl.allotrope.org/manifests/cell-culture-analyzer/BENCHLING/2023/09/cell-culture-analyzer.manifest",
     "measurement aggregate document": {
-        "measurement identifier": "6914bf74-7316-490d-832a-4554c0538790",
-        "data processing time": "2022-10-20T16:34:37+00:00",
+        "measurement identifier": "ROCHE_CEDEX_BIOHT_TEST_ID_0",
         "analyst": "ADMIN",
         "device system document": {
             "model number": "CEDEX BIO HT",
@@ -12,10 +11,9 @@
             {
                 "sample document": {
                     "sample identifier": "Plate1_1",
-                    "sample role type": "Sample",
                     "batch identifier": "P_391"
                 },
-                "measurement time": "2022-10-20T09:45:25+00:00",
+                "measurement time": "2022-10-20T09:44:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -42,10 +40,9 @@
             {
                 "sample document": {
                     "sample identifier": "Plate1_1",
-                    "sample role type": "Sample",
                     "batch identifier": "P_492"
                 },
-                "measurement time": "2022-10-20T09:45:25+00:00",
+                "measurement time": "2022-10-20T09:44:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -65,10 +62,9 @@
             {
                 "sample document": {
                     "sample identifier": "Plate1_2",
-                    "sample role type": "Sample",
                     "batch identifier": "P_391"
                 },
-                "measurement time": "2022-10-20T09:45:55+00:00",
+                "measurement time": "2022-10-20T09:45:33+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -94,10 +90,9 @@
             },
             {
                 "sample document": {
-                    "sample identifier": "Plate1_3",
-                    "sample role type": "Sample"
+                    "sample identifier": "Plate1_3"
                 },
-                "measurement time": "2022-10-20T09:46:27+00:00",
+                "measurement time": "2022-10-20T09:46:05+00:00",
                 "analyte aggregate document": {
                     "analyte document": [
                         {
@@ -131,7 +126,6 @@
             {
                 "sample document": {
                     "sample identifier": "Plate1_3",
-                    "sample role type": "Sample",
                     "batch identifier": "pep1"
                 },
                 "measurement time": "2022-10-20T09:46:27+00:00",
@@ -147,6 +141,7 @@
                     ]
                 }
             }
-        ]
+        ],
+        "data processing time": "2022-10-20T16:34:37+00:00"
     }
 }

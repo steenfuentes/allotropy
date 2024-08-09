@@ -1,15 +1,16 @@
 from __future__ import annotations
 
+from abc import ABC, abstractmethod
 from collections.abc import Iterator
-from typing import Generic, Optional, TypeVar, Union
+from typing import Generic, TypeVar
 
-from allotropy.allotrope.allotrope import AllotropeConversionError
+from allotropy.exceptions import AllotropyParserError
 
 T = TypeVar("T")
 
 
 class ViewData(Generic[T]):
-    def __init__(self, data: dict[str, Union[ViewData, list[T]]]):
+    def __init__(self, data: dict[str, ViewData[T] | list[T]]):
         self.data = data
 
     def get_first_key(self) -> str:
@@ -24,7 +25,7 @@ class ViewData(Generic[T]):
             else:
                 yield [key]
 
-    def get_item(self, *keys: str) -> Union[ViewData, list[T]]:
+    def get_item(self, *keys: str) -> ViewData[T] | list[T]:
         if len(keys) == 0:
             return self.data[self.get_first_key()]
 
@@ -35,29 +36,30 @@ class ViewData(Generic[T]):
         else:
             return item
 
-    def get_sub_view_data(self, *keys: str) -> ViewData:
+    def get_sub_view_data(self, *keys: str) -> ViewData[T]:
         item = self.get_item(*keys)
         if isinstance(item, ViewData):
             return item
-        msg = f"Unable to get sub view data with keys {keys}"
-        raise AllotropeConversionError(msg)
+        msg = f"Unable to find sub view data with keys: {keys}."
+        raise AllotropyParserError(msg)
 
     def get_leaf_item(self, *keys: str) -> list[T]:
         item = self.get_item(*keys)
         if isinstance(item, ViewData):
-            msg = f"Unable to get leaf item of view data with keys {keys}"
-            raise AllotropeConversionError(msg)
+            msg = f"Unable to find leaf item of view data with keys: {keys}."
+            raise AllotropyParserError(msg)
         return item
 
 
-class View(Generic[T]):
-    def __init__(self, sub_view: Optional[View] = None):
+class View(ABC, Generic[T]):
+    def __init__(self, sub_view: View[T] | None = None):
         self.sub_view = sub_view
 
+    @abstractmethod
     def sort_elements(self, _: list[T]) -> dict[str, list[T]]:
-        return {}
+        pass
 
-    def apply(self, elements: list[T]) -> ViewData:
+    def apply(self, elements: list[T]) -> ViewData[T]:
         return ViewData(
             {
                 id_: self.sub_view.apply(element) if self.sub_view else element

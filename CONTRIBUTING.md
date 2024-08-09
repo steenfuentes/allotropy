@@ -1,8 +1,34 @@
 # Introduction
 
-We welcome community contributions to this library and we hope that together we can expand the coverage of ASM ready data for everyone.
+We welcome community contributions to this library and we hope that together we can expand the coverage of ASM-ready data for everyone.
 
 In order to contribute you will need to have an Individual or Corporate Contributor License Agreement (CLA) on file with Benchling depending on if you are contributing on your own time or as part of another company. When you make your first pull request we will check if you have a CLA and if not take care of that with you first. The process is quick and painless and helps us to make sure that you and everyone who uses your code in the future is protected.
+
+Allotropy follows a [fork and pull model](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#fork-and-pull-model). To start, fork a copy of the Allotropy repository in GitHub onto your own account and then create your local repository of the fork.
+
+## Contribution conventions
+
+### PR title
+The PR title must have a prefix (`<prefix>: <description>`) and must have one of the following prefixes:
+
+* `feat`: A new feature
+* `fix`: A bug fix
+* `docs`: Documentation only changes
+* `style`: Stylistic only changes (e.g. whitespace, formatting)
+* `refactor`: Refactor only changes (e.g. moving code, reorganizing classes)
+* `perf`: Performance only changes
+* `test`: A change that only introduces new tests or test data
+* `chore`: A change to internal systems (e.g. build, ci, dependencies) that does not affect tests
+
+## CHANGELOG
+Every PR that starts with `feat` or `fix` must have a changelog entry. This ensures that all changes that affect
+the library output are documented in the changelog.
+
+If your change affects existing test cases or adds new tests with new features, it should almost certainly have a `feat` or `fix` prefix.
+
+## Testing
+Every PR is run against all lint checks and tests before merging in git.
+Be sure to run `hatch run lint` and `hatch run test` before creating a PR to ensure your branch will pass checks.
 
 ## GPG keys and signed commits
 All commits to this repository must be signed. To set up commit signatures, please do the following:
@@ -13,7 +39,20 @@ All commits to this repository must be signed. To set up commit signatures, plea
 - [Tell Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key).
   - Follow up until step 5.
 
-To configure commits to be signed by default within this repo, run `git config commit.gpgsign true`.
+To configure commits to be signed by default within this repo, run this line:
+```sh
+git config commit.gpgsign true
+``````
+
+If you have a passphrase on your GPG key, be sure to add this line to your `~/.zshrc` or `~/.bashrc` (or your respective shell configuration file):
+
+```sh
+export GPG_TTY=$(tty)
+```
+
+> [!NOTE]
+> If you are having trouble signing your commits, when adding commits, make sure to `exit` any `hatch shell` you may have open. Developers have reported issues trying to do so, as commit signing does not work properly in a virtual environment.
+
 
 # Adding a new converter
 
@@ -25,11 +64,40 @@ In this case we already have some code in the library to handle instruments of t
 1. A `Parser` class -- this implements [`VendorParser`](src/allotropy/parsers/vendor_parser.py) and does most of the work converting the instrument data to ASM.
 2. Either:
   - A `Structure` file that the `Parser` uses to build an in memory representation of the instrument data that can be serialized to ASM.
-  - A `Reader` file that the `Parser` uses to read directly from the file, if accessing the file data does not require much logic.
+  - A `Reader` file that the `Parser` uses to read the raw contents of the file, which is passed to the `Structure` classes.
+
+Run `hatch run scripts:create-parser NAME SCHEMA_REGEX` to create a set of starter files. Where `SCHEMA_REGEX` is a search pattern over schema paths to specify a schema to use.
+
+See our [tutorial](docs/tutorial.md) for a deeper dive on contributing to the `allotropy` library!
 
 ## If the ASM schema you need is not available
 
 Please open an issue and talk to us about adding it. There is a bit more work involved in this case but we would still love to work with you to get the instrument type that you desire into the library!
+
+## README
+The README contains a list of all available parsers, organized by release state. When adding a new parser,
+it must be included in the README. This can be done automatically via:
+
+```sh
+hatch run scripts:update-readme
+```
+
+If the parser is not in the `RECOMMENDED` state, it must be added to `NON_READY_PARSERS` in `tests/parser_factory_test.py`
+
+# Error messaging
+
+We ask that all error messages thrown in exceptions are written to be clear and useful to developers and end users. As such, please follow these guidelines. `AllotropeConversionError` and helper functions can be found in [`exceptions.py`](src/allotropy/exceptions.py) (and as always, we welcome any additions you may have).
+- Catch and raise all errors caused by bad input in this repo as `AllotropeConversionError`.
+- Write all messages with proper capitalization and full punctuation.
+- As much as possible, include the exact text of the problematic line(s) or value(s) (in single quotes as needed, to add clarity).
+- As much as possible, explain why that text was problematic, or what the expected behavior would have been.
+- Construct messages using f-strings, when applicable.
+
+## Specific situations
+- If a value is not a member of an expected set of values (e.g. an Enum), the text should read: `Unrecognized {key}: '{value}'. Only {valid_values} are supported.` (there is a helper function in [`exceptions.py`](src/allotropy/exceptions.py) for this)
+- If an expected value is not present, begin the text with `"Unable to find..."` or `"Unable to determine..."`
+- If a certain number of values are expected, begin the text with `"Expected exactly..."`
+- If a certain framework is unsupported, begin with the text `"Unsupported..."`
 
 
 # Other issues

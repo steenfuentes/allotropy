@@ -1,4 +1,4 @@
-from typing import Union
+from typing import Any
 
 from allotropy.allotrope.models.shared.definitions.custom import (
     TNullableQuantityValueCell,
@@ -22,17 +22,17 @@ INVALID_FILENAME_MESSAGE = (
     "or SampleResults<Analyzer ID>YYYY-MM-DD_HHMMSS.csv where <Analyzer ID> is defined in Settings"
 )
 
-MOLAR_CONCENTRATION_CLASSES = Union[
-    TNullableQuantityValueMillimolePerLiter,
-    TNullableQuantityValueGramPerLiter,
-    TNullableQuantityValueUnitPerLiter,
-]
+MOLAR_CONCENTRATION_CLASSES = (
+    TNullableQuantityValueMillimolePerLiter
+    | TNullableQuantityValueGramPerLiter
+    | TNullableQuantityValueUnitPerLiter
+)
 ALL_MOLAR_CONCENTRATION_CLASSES: list[
-    Union[
-        type[TNullableQuantityValueMillimolePerLiter],
-        type[TNullableQuantityValueGramPerLiter],
-        type[TNullableQuantityValueUnitPerLiter],
-    ]
+    (
+        type[TNullableQuantityValueMillimolePerLiter]
+        | type[TNullableQuantityValueGramPerLiter]
+        | type[TNullableQuantityValueUnitPerLiter]
+    )
 ] = [
     TNullableQuantityValueMillimolePerLiter,
     TNullableQuantityValueGramPerLiter,
@@ -81,7 +81,7 @@ ANALYTE_MAPPINGS: dict[str, dict[str, str]] = {
     },
 }
 
-PROPERTY_MAPPINGS: dict[str, dict] = {
+PROPERTY_MAPPINGS: dict[str, dict[str, Any]] = {
     "pco2": {
         "col_name": "PCO2",
         "cls": TNullableQuantityValueMillimeterOfMercury,

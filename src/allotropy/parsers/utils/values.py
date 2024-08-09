@@ -1,23 +1,93 @@
+from __future__ import annotations
+
+import math
 import re
-from typing import Optional, TypeVar, Union
+from typing import Any, TypeVar
 
-from allotropy.allotrope.allotrope import AllotropeConversionError
+import pandas as pd
 
-PrimitiveValue = Union[str, int, float]
+from allotropy.allotrope.models.shared.definitions.definitions import (
+    InvalidJsonFloat,
+    JsonFloat,
+    TQuantityValue,
+)
+from allotropy.exceptions import AllotropeConversionError, AllotropyParserError
+
+PrimitiveValue = str | int | float
 
 
-def try_int(value: Optional[str]) -> Optional[int]:
+def str_to_bool(value: str) -> bool:
+    return value.lower() in ("yes", "y", "true", "t", "1")
+
+
+def try_int(value: str | None, value_name: str) -> int:
+    try:
+        return int(assert_not_none(value, value_name))
+    except ValueError as e:
+        msg = f"Invalid integer string: '{value}'."
+        raise AllotropeConversionError(msg) from e
+
+
+def try_int_or_none(value: str | None) -> int | None:
     try:
         return int(value or "")
     except ValueError:
         return None
 
 
-def try_float(value: Optional[str]) -> Optional[float]:
+def _try_float(value: str) -> float:
+    # NOTE: this will convert a string with commas for thousands into a decimal, potentially introducing
+    # an unexpected error, e.g. one thousand represented as 1,000 would get converted to 1.0
+    # However, numbers are not usually represented like this in scientific output (we have no example of it)
+    return float(value.replace(",", "."))
+
+
+def try_float(value: str, value_name: str) -> float:
+    assert_not_none(value, value_name)
     try:
-        return float(value or "")
+        return _try_float(value)
+    except ValueError as e:
+        msg = f"Invalid float string: '{value}'."
+        raise AllotropeConversionError(msg) from e
+
+
+def try_float_or_none(value: str | float | None) -> float | None:
+    try:
+        return _try_float(str(value))
     except ValueError:
         return None
+
+
+def try_nan_float_or_none(value: str | float | None) -> JsonFloat | None:
+    float_value = try_float_or_none(value) if isinstance(value, str) else value
+    if float_value is None:
+        return None
+    return InvalidJsonFloat.NaN if math.isnan(float_value) else float_value
+
+
+def try_non_nan_float_or_none(value: str | float | None) -> float | None:
+    float_value = try_float_or_none(value)
+    return None if float_value is None or math.isnan(float_value) else float_value
+
+
+def try_non_nan_float(value: str) -> float:
+    float_value = try_non_nan_float_or_none(value)
+    if float_value is None:
+        msg = f"Invalid non nan float string: '{value}'."
+        raise AllotropeConversionError(msg)
+    return float_value
+
+
+def try_int_or_nan(value: str | int | None) -> int | InvalidJsonFloat:
+    if isinstance(value, int):
+        return value
+    float_value = try_non_nan_float_or_none(value)
+    return InvalidJsonFloat.NaN if float_value is None else int(float_value)
+
+
+def try_float_or_nan(value: str | float | None) -> JsonFloat:
+    float_value = try_non_nan_float_or_none(value)
+    return InvalidJsonFloat.NaN if float_value is None else float_value
 
 
 def natural_sort_key(key: str) -> list[str]:
@@ -28,17 +98,70 @@ def natural_sort_key(key: str) -> list[str]:
     ]
 
 
+QuantityType = TypeVar("QuantityType", bound=TQuantityValue)
+
+
+def quantity_or_none(
+    value_cls: type[QuantityType],
+    value: JsonFloat | list[JsonFloat] | list[int] | None,
+    index: int | None = None,
+) -> QuantityType | None:
+    if value is None:
+        return None
+    if isinstance(value, list):
+        return value_cls(value=value[assert_not_none(index, msg="Cannot provide list to quantity_or_none without index")])  # type: ignore[call-arg]
+    # Typing does not know that all subclasses of TQuantityValue have default value for unit set.
+    return value_cls(value=value)  # type: ignore[call-arg]
+
+
 T = TypeVar("T")
 
 
 def assert_not_none(
-    value: Optional[T], name: Optional[str] = None, msg: Optional[str] = None
+    value: T | None, name: str | None = None, msg: str | None = None
 ) -> T:
     if value is None:
-        error = msg or f"Expected non-null value{f' for {name}' if name else ''}"
-        raise AllotropeConversionError(error)
+        msg = msg or f"Expected non-null value{f' for {name}' if name else ''}."
+        raise AllotropeConversionError(msg)
     return value
 
 
-def value_or_none(value: str) -> Optional[str]:
-    return value.strip() or None
+def df_to_series(
+    df: pd.DataFrame,
+    msg: str,
+) -> pd.Series[Any]:
+    n_rows, _ = df.shape
+    if n_rows == 1:
+        return pd.Series(df.iloc[0], index=df.columns)
+    raise AllotropyParserError(msg)
+
+
+def assert_df_column(df: pd.DataFrame, column: str) -> pd.Series[Any]:
+    df_column = df.get(column)
+    if df_column is None:
+        msg = f"Unable to find column '{column}'"
+        raise AllotropeConversionError(msg)
+    return pd.Series(df_column)
+
+
+def assert_not_empty_df(df: pd.DataFrame, msg: str) -> pd.DataFrame:
+    if df.empty:
+        raise AllotropeConversionError(msg)
+    return df
+
+
+def assert_value_from_df(df: pd.DataFrame, key: str) -> Any:
+    try:
+        return df[key]
+    except KeyError as e:
+        msg = f"Unable to find key '{key}' in dataframe headers: {df.columns.tolist()}"
+        raise AllotropeConversionError(msg) from e
+
+
+def num_to_chars(n: int) -> str:
+    d, m = divmod(n, 26)  # 26 is the number of ASCII letters
+    return "" if n < 0 else num_to_chars(d - 1) + chr(m + 65)  # chr(65) = 'A'
+
+
+def str_or_none(value: Any) -> str | None:
+    return None if value is None else str(value)

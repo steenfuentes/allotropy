@@ -14,7 +14,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "a92b5f88-8a1f-4e06-836f-b1da473d4f32",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_0",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -33,6 +33,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -280,7 +281,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "84c0f590-d398-4a5f-a54a-297c16531af8",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_1",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -299,6 +300,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -559,7 +561,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "342897bd-d4f1-487b-8934-4bd748e421df",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_2",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -578,6 +580,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -825,7 +828,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "40286ebd-0c31-4552-9799-a1586626ef04",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_3",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -844,6 +847,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -1104,7 +1108,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "c1c82616-e762-450e-987b-665180bc5837",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_4",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -1123,6 +1127,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -1370,7 +1375,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "c63a665e-ef8e-496f-848e-8f0cb0bbeb2c",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_5",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -1389,6 +1394,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -1649,7 +1655,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "611ef388-cd21-46d2-98c9-715395504308",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_6",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -1668,6 +1674,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -1915,7 +1922,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "526fcaac-d113-411e-9071-f675bf3c1607",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_7",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -1934,6 +1941,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -2194,7 +2202,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "2ff23c3a-acd4-4164-8cd6-716acb3216b4",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_8",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -2213,6 +2221,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -2460,7 +2469,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "2530917f-e950-4e08-ba24-0a883c8421e2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_9",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -2479,6 +2488,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -2739,7 +2749,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "ae82f5c6-23df-42b8-bfe7-c569cec71b10",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_10",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -2758,6 +2768,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -3005,7 +3016,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "2e4dc530-556f-4b42-92fd-185fb95a577f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_11",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -3024,6 +3035,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -3284,7 +3296,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "5d11b3b5-5314-477c-a940-c889c7b03435",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_12",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -3303,6 +3315,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -3550,7 +3563,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "08def333-f615-497f-a8bc-97f7cdd854a2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_13",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -3569,6 +3582,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -3829,7 +3843,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "5628e083-1d88-46f0-9cad-0b35b8b2d5b7",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_14",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -3848,6 +3862,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -4095,7 +4110,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "bba54a26-c989-40ff-b1a4-b5ed4f5d60b2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_15",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -4114,6 +4129,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -4374,7 +4390,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "49932ef6-0e5d-4d0a-bd29-a3a4b47ecf14",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_16",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -4393,6 +4409,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -4640,7 +4657,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "b6c9f13d-d392-4f82-8fd2-d1448f744b3d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_17",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -4659,6 +4676,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -4919,7 +4937,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "09b3888e-3e55-4c23-808f-cf842dd8bdf8",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_18",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -4938,6 +4956,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -5185,7 +5204,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "355623ee-d040-4bea-94ff-fdc40daec05f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_19",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -5204,6 +5223,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -5464,7 +5484,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "dbb19151-8256-4e50-8da6-6c7c056e7ab3",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_20",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -5483,6 +5503,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -5730,7 +5751,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "d726a9dd-a58f-4416-a2ae-a06126b53236",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_21",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -5749,6 +5770,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -6009,7 +6031,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "e0e4c93f-8b6a-40be-baba-e1d1b399a5d7",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_22",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -6028,6 +6050,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -6275,7 +6298,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "026e6f26-e1ab-4887-bb84-2f8b86aec9f3",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_23",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -6294,6 +6317,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -6554,7 +6578,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "a117f797-d9d2-45d5-a95d-ade3dc6193a4",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_24",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -6573,6 +6597,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -6820,7 +6845,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "85d40db4-b358-42d0-a527-1f1692ed540b",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_25",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -6839,6 +6864,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -7099,7 +7125,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "e0e91746-8275-4d77-8f4f-090c3c135df7",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_26",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -7118,6 +7144,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -7365,7 +7392,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "7cfe543f-d87a-4324-ad72-83e7f274ef17",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_27",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -7384,6 +7411,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -7644,7 +7672,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "78925dbe-ec37-4823-b071-20b5510ebc5d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_28",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -7663,6 +7691,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -7910,7 +7939,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "f8f96db5-8391-4b02-8a3e-e9aa108ca1d0",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_29",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -7929,6 +7958,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -8189,7 +8219,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "eb07ac77-4e88-48b9-a1bd-0877212aeccd",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_30",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -8208,6 +8238,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -8455,7 +8486,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "38b047d5-06c4-45b0-84ba-c363d303e9dc",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_31",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -8474,6 +8505,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -8734,7 +8766,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "f2d5606d-1b5d-4ae9-91a4-a2efd6cdb99d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_32",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -8753,6 +8785,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -9000,7 +9033,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "f04171b2-5f5b-4d57-b58e-58a81c87c185",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_33",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -9019,6 +9052,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -9279,7 +9313,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "a808d878-5dd3-4043-add4-db7ffa3a9673",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_34",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -9298,6 +9332,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -9545,7 +9580,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "92326572-2a10-4290-842e-1ef394d32e1e",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_35",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -9564,6 +9599,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -9824,7 +9860,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "24bb8e7b-86aa-4894-9a1d-e381026cb3e1",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_36",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -9843,6 +9879,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -10090,7 +10127,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "8514a601-492a-4138-966b-a8c3a899dbde",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_37",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -10109,6 +10146,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -10369,7 +10407,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "21f2aa00-da27-41e1-8f67-55c412b5f364",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_38",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -10388,6 +10426,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -10635,7 +10674,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "eaa73710-b5c9-43f0-ae56-efa053fae224",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_39",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -10654,6 +10693,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -10914,7 +10954,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "42edc1b8-98d4-4fb5-a9cc-8fd3a8ebd45f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_40",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -10933,6 +10973,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -11180,7 +11221,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "4978c903-bbc1-4e5a-8a15-3f630b6c8f58",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_41",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -11199,6 +11240,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -11459,7 +11501,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "a0f2badc-5cab-4da0-8301-e7c86635ce11",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_42",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -11478,6 +11520,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -11725,7 +11768,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "63e92fbb-6acf-4f24-8e77-df904d0c929d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_43",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -11744,6 +11787,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -12004,7 +12048,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "84dc199e-5f35-44e3-9e48-7beb2df568c2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_44",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -12023,6 +12067,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -12270,7 +12315,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "23be2b93-2a68-4a39-8655-51afa408c74c",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_45",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -12289,6 +12334,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -12549,7 +12595,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "774bb32a-1491-4ee2-8bce-f153309e21d3",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_46",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -12568,6 +12614,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -12815,7 +12862,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "b4962c25-17b4-4ec6-a5bd-db2aa663c652",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_47",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -12834,6 +12881,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -13094,7 +13142,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "3dfd1794-3a25-4549-9ee2-8df9e6c193df",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_48",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -13113,6 +13161,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -13360,7 +13409,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "b0e50b1c-7d54-46e5-8c79-c82715cf5859",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_49",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -13379,6 +13428,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -13639,7 +13689,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "c24bba26-e051-4c6e-aedd-3f1ae7e6a7b2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_50",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -13658,6 +13708,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -13905,7 +13956,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "c7aeb7ef-a0e6-45d9-92de-a917a508d104",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_51",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -13924,6 +13975,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -14184,7 +14236,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "2c6a1e58-ba66-4568-bd04-4973387435f3",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_52",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -14203,6 +14255,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -14450,7 +14503,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "add67749-5e13-4b68-9f94-4dc81ca46341",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_53",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -14469,6 +14522,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -14729,7 +14783,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "44129237-5f97-44d0-b13d-f5f383eb2dc0",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_54",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -14748,6 +14802,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -14995,7 +15050,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "373a6777-8256-400b-97e6-474178586da5",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_55",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -15014,6 +15069,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -15274,7 +15330,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "210ebe5b-d553-43d9-8b08-730e02fda932",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_56",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -15293,6 +15349,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -15540,7 +15597,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "15cc6268-a8cc-4344-bee2-d0751ceaa2c1",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_57",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -15559,6 +15616,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -15819,7 +15877,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "01ca7772-ae3c-420e-85c5-cad39b5f83eb",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_58",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -15838,6 +15896,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -16085,7 +16144,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "f2ab730b-db69-4b10-954e-425c4cf338aa",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_59",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -16104,6 +16163,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -16364,7 +16424,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "6ac7f054-b60f-4e6e-953d-e25c8c7153b1",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_60",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -16383,6 +16443,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -16630,7 +16691,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "bb39374d-e8a1-426a-98a6-5100e300554d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_61",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -16649,6 +16710,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -16909,7 +16971,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "d1139bb4-0e12-4624-97a7-6b547652b099",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_62",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -16928,6 +16990,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -17175,7 +17238,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "fc279452-f309-4637-9696-7a658d3eaa47",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_63",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -17194,6 +17257,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -17454,7 +17518,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "7f5b61c7-f9dc-426c-9f37-e87d7975bce8",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_64",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -17473,6 +17537,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -17720,7 +17785,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "97e2afbc-06dd-417f-b4c8-14704744ad1a",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_65",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -17739,6 +17804,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -17999,7 +18065,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "68b8cc1e-3f76-4780-93d6-56478270dff0",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_66",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -18018,6 +18084,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -18265,7 +18332,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "6d079c8b-6e81-440c-b0a4-fbd350ff02d7",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_67",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -18284,6 +18351,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -18544,7 +18612,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "e61fbee7-6c68-4d2c-a3d8-d4a2c756d876",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_68",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -18563,6 +18631,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -18810,7 +18879,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "891f1750-f5be-4e50-8a2e-68984151ab56",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_69",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -18829,6 +18898,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -19089,7 +19159,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "2bf12022-ed18-4c0f-b28d-0daaf45eac48",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_70",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -19108,6 +19178,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -19355,7 +19426,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "0eb8257e-5259-4b02-9a40-5d8955832133",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_71",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -19374,6 +19445,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -19634,7 +19706,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "11bcdcbe-5c32-46be-804d-ad5b2646a099",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_72",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -19653,6 +19725,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -19900,7 +19973,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "670bda2f-9140-4daa-9afb-faee9388ae28",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_73",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -19919,6 +19992,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -20179,7 +20253,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "95aaf413-b9a2-4a3c-bbd6-dcb073573b70",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_74",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -20198,6 +20272,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -20445,7 +20520,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "42be975c-4159-4190-939b-e2632f1d436b",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_75",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -20464,6 +20539,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -20724,7 +20800,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "746e8c35-6b31-46a8-95a9-d4502e16b546",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_76",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -20743,6 +20819,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -20990,7 +21067,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "44916cfe-dd47-4add-ad34-221b0ed43607",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_77",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -21009,6 +21086,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -21269,7 +21347,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "a50d022d-24d6-4f13-a767-307de82f8d2f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_78",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -21288,6 +21366,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -21535,7 +21614,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "d4107ede-5b5a-4664-b9fe-44f1e437d5c6",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_79",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -21554,6 +21633,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -21814,7 +21894,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "baf18ecd-aa9d-43fe-a524-f3cc0977c1de",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_80",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -21833,6 +21913,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -22080,7 +22161,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "63a1a10b-bc17-484a-b424-3ea037be72af",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_81",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -22099,6 +22180,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -22359,7 +22441,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "04d35074-34a0-4785-b75b-a8e7fd35fdb8",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_82",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -22378,6 +22460,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -22625,7 +22708,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "b2a0918c-7e29-437b-b61e-ffc8323d4ccf",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_83",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -22644,6 +22727,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -22904,7 +22988,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "c4a81edf-212b-45d8-a1df-18bc0938aa6c",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_84",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -22923,6 +23007,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -23170,7 +23255,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "9c1568f6-e0f2-49b2-aa2f-6c92a304ad8e",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_85",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -23189,6 +23274,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -23449,7 +23535,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "d27f8c2b-55a7-41f0-9b05-4499654cbebf",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_86",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -23468,6 +23554,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -23715,7 +23802,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "a2782dfe-6d7f-48ee-902b-eb53db6b3533",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_87",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -23734,6 +23821,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -23994,7 +24082,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "d1278873-7176-46e1-a9e1-5be509cda26e",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_88",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -24013,6 +24101,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -24260,7 +24349,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "ad7b1b4c-ee77-49ad-832c-49e535dcb792",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_89",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -24279,6 +24368,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -24539,7 +24629,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "1f49527e-4e6b-4b59-ac75-d30ed0f3fb51",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_90",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -24558,6 +24648,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -24805,7 +24896,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "215f5d9c-a6e1-464d-ad38-c34172b77234",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_91",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -24824,6 +24915,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -25084,7 +25176,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "bd5112b5-236f-4eae-92fe-2ac1437a6d20",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_92",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -25103,6 +25195,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -25350,7 +25443,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "b25de6d6-cea1-4005-8a44-7c687e835d5c",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_93",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -25369,6 +25462,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -25629,7 +25723,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "4b66cab0-06e9-43cf-a88a-ea60abb84c2b",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_94",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -25648,6 +25742,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -25895,7 +25990,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "49bd1603-0ef4-4d9d-84b7-e45b7aedb4a0",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_95",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -25914,6 +26009,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -26174,7 +26270,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "50c7bdfc-3e07-4206-9712-1dc01885224a",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_96",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -26193,6 +26289,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -26440,7 +26537,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "9016ee63-2186-4b5b-af03-36eb00b9c14f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_97",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -26459,6 +26556,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -26719,7 +26817,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "e4d25e84-80cc-4e37-8d76-61067a0be84e",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_98",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -26738,6 +26836,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -26985,7 +27084,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "459bc778-0145-4a91-a9df-9a441ea02670",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_99",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -27004,6 +27103,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -27264,7 +27364,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "a38a07f1-d203-4995-a75d-c1968a5960d2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_100",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -27283,6 +27383,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -27530,7 +27631,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "a41537fe-a359-44a8-a2ee-eff03232118c",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_101",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -27549,6 +27650,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -27809,7 +27911,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "9d42dbce-f19a-4a4a-a967-2ed531de248f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_102",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -27828,6 +27930,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -28075,7 +28178,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "804926a8-b172-4d6e-8509-3fe66fab98af",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_103",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -28094,6 +28197,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -28354,7 +28458,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "80b61997-2486-4814-b509-5d00e5d48e0e",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_104",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -28373,6 +28477,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -28620,7 +28725,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "585b1c8e-8284-4022-9368-a71f4be1f8f2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_105",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -28639,6 +28744,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -28899,7 +29005,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "75d2178f-5db1-49d7-ac7c-d8b62731c9ef",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_106",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -28918,6 +29024,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -29165,7 +29272,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "f4af0791-0ee6-4f36-9d0b-14c94b759376",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_107",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -29184,6 +29291,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -29444,7 +29552,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "38a22aa4-9e2b-478a-bf4d-da5fc7e1b8de",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_108",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -29463,6 +29571,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -29710,7 +29819,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "55577549-84f5-486f-bc82-7a16e9359296",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_109",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -29729,6 +29838,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -29989,7 +30099,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "da118093-5e45-4c9d-a9e7-b33ddeb049c8",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_110",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -30008,6 +30118,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -30255,7 +30366,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "f9a3aeda-43ac-44d2-9dfc-9b18e631e294",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_111",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -30274,6 +30385,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -30534,7 +30646,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "40937bd7-a64d-4828-964f-c1ab2546a1ab",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_112",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -30553,6 +30665,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -30800,7 +30913,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "b2131518-202f-49ba-8a2b-1ad085e9603e",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_113",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -30819,6 +30932,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -31079,7 +31193,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "cb49092a-56f1-44da-af01-e65c35a61341",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_114",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -31098,6 +31212,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -31345,7 +31460,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "0056be07-055c-4a4e-b663-12ba5751c5ec",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_115",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -31364,6 +31479,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -31624,7 +31740,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "88b6c592-1fb5-41aa-8983-9c784aaa0b2d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_116",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -31643,6 +31759,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -31890,7 +32007,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "ed9a0314-4169-495f-97e9-ee2ead311f99",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_117",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -31909,6 +32026,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -32169,7 +32287,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "acaf2d50-9b6b-493c-b441-dda8ed409148",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_118",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -32188,6 +32306,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -32435,7 +32554,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "b6177baa-35ac-42dd-aac4-f08c8bc3d343",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_119",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -32454,6 +32573,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -32714,7 +32834,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "ee938c9a-a7f8-440d-a48a-6502b458f287",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_120",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -32733,6 +32853,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -32980,7 +33101,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "c359dcf3-ce92-4650-b6fc-404724da4b1d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_121",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -32999,6 +33120,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -33259,7 +33381,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "24219527-d16d-4df4-a963-5040d3d18a36",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_122",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -33278,6 +33400,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -33525,7 +33648,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "e23005eb-fe13-4163-a494-18a5402458cc",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_123",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -33544,6 +33667,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -33804,7 +33928,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "307371a0-414d-44f8-9204-704a92396a7b",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_124",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -33823,6 +33947,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -34070,7 +34195,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "4872a4e9-a488-45b1-923f-8376818c7b0f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_125",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -34089,6 +34214,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -34349,7 +34475,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "05596a81-0a73-4c7b-a168-ef4214bdb86b",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_126",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -34368,6 +34494,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -34615,7 +34742,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "765dd07a-51ba-4d93-93e3-84427eaf7142",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_127",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -34634,6 +34761,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -34894,7 +35022,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "d4942bf5-f747-4f00-b6bd-4ea3db118a6a",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_128",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -34913,6 +35041,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -35160,7 +35289,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "3347bf46-6e7a-4bae-bf46-f66c55cda4f2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_129",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -35179,6 +35308,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -35439,7 +35569,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "c931e4ae-84d3-4c71-8bee-f9437eb2b1ed",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_130",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -35458,6 +35588,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -35705,7 +35836,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "d51f339d-add3-4adc-8ffa-c551854af4d7",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_131",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -35724,6 +35855,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -35984,7 +36116,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "8cdc24fd-9408-4925-970e-410fdbbb01a5",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_132",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -36003,6 +36135,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -36250,7 +36383,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "3dc39ee5-c023-40ec-a284-a72a2e5d3c10",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_133",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -36269,6 +36402,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -36529,7 +36663,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "cc66818b-fcf3-4de4-9833-a4224f8669f2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_134",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -36548,6 +36682,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -36795,7 +36930,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "fd0b72ea-5a4a-4e48-9451-52d4fb0c91c2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_135",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -36814,6 +36949,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -37074,7 +37210,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "128973e4-cacf-4bea-8b03-fe15eef2fbc0",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_136",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -37093,6 +37229,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -37340,7 +37477,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "00d24afb-468f-42ff-b92a-b29e2963c278",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_137",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -37359,6 +37496,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -37619,7 +37757,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "28874a27-aea3-47dc-b264-4f2b234eb4e1",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_138",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -37638,6 +37776,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -37885,7 +38024,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "4cc4cdd4-54db-4902-9d54-605b93a73348",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_139",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -37904,6 +38043,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -38164,7 +38304,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "8ce1e08d-8a6d-4e4a-a7f9-ebad639bc294",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_140",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -38183,6 +38323,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -38430,7 +38571,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "949040fc-7518-45f3-9726-14d1ac6e8997",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_141",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -38449,6 +38590,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -38709,7 +38851,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "378feeb7-63e0-4c9f-b8a5-cf779f0d6dad",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_142",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -38728,6 +38870,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -38975,7 +39118,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "26737c7d-0e8f-43d1-adb8-cd42a8242fa5",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_143",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -38994,6 +39137,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -39254,7 +39398,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "415031d2-c5da-446a-b144-eab085e2af46",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_144",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -39273,6 +39417,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -39520,7 +39665,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "f847245c-7518-4d24-a7a6-0dfa3563439f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_145",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -39539,6 +39684,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -39799,7 +39945,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "5f86a944-3346-471d-a93e-9d5c01485a7b",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_146",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -39818,6 +39964,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -40065,7 +40212,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "e22703eb-c2ee-4a82-bbf6-d315ac1f9a98",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_147",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -40084,6 +40231,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -40344,7 +40492,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "28cb849a-fb49-4991-868b-e233718b1cc4",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_148",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -40363,6 +40511,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -40610,7 +40759,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "aa2615c8-0354-4120-b26b-c225f2cb2ccb",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_149",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -40629,6 +40778,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -40889,7 +41039,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "f85af94d-1b06-41cf-b732-5e92dbe094f9",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_150",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -40908,6 +41058,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -41155,7 +41306,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "17b0296b-1882-42e0-9317-8af3d3c96612",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_151",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -41174,6 +41325,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -41434,7 +41586,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "805360ca-bd8d-4079-bf66-d3661d5f58d0",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_152",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -41453,6 +41605,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -41700,7 +41853,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "d80d5391-e803-45e7-8639-30b6578f3aa0",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_153",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -41719,6 +41872,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -41979,7 +42133,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "6d1d0e7a-cae5-4d77-a659-18b102200e4e",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_154",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -41998,6 +42152,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -42245,7 +42400,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "2b1e9906-7235-4244-837e-e7e7faf93df4",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_155",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -42264,6 +42419,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -42524,7 +42680,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "72165111-9c01-4583-b90d-493ea4241680",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_156",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -42543,6 +42699,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -42790,7 +42947,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "ad3e9a45-ddb3-4f9a-893e-67768f4926a9",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_157",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -42809,6 +42966,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -43069,7 +43227,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "4529a78f-9498-4412-a0f4-50705a82dd6d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_158",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -43088,6 +43246,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -43335,7 +43494,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "258ed72f-3772-4bf6-b2c3-c5a38e6367d3",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_159",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -43354,6 +43513,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -43614,7 +43774,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "d240d6e3-78ce-475d-85db-a0e0ea9995c3",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_160",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -43633,6 +43793,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -43880,7 +44041,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "d9e7567a-3d23-4c4f-9d08-e9eacd683a84",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_161",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -43899,6 +44060,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -44159,7 +44321,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "fb41c20e-7c40-4709-9684-9d411452a6da",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_162",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -44178,6 +44340,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -44425,7 +44588,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "ba7ec298-f33e-4923-9b1d-18ab0daf6c56",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_163",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -44444,6 +44607,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -44704,7 +44868,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "0f0bc74d-4154-4573-a335-189daae47c25",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_164",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -44723,6 +44887,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -44970,7 +45135,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "4229370c-0337-4d90-a444-b5251bd7e977",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_165",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -44989,6 +45154,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -45249,7 +45415,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "e45640fe-8f14-45dc-9439-ac853aeb4c44",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_166",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -45268,6 +45434,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -45515,7 +45682,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "6823dbe5-8694-4057-a54a-b16a1a423191",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_167",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -45534,6 +45701,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -45794,7 +45962,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "802a7b8f-4aaa-4bca-b842-973adc84c0ff",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_168",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -45813,6 +45981,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -46060,7 +46229,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "8e03bab5-9972-419b-9e8b-cb8efbcbbc2b",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_169",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -46079,6 +46248,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -46339,7 +46509,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "f6454f22-7dc1-4832-8662-87ac4f105a9f",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_170",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -46358,6 +46528,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -46605,7 +46776,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "eee4f923-06ab-4a30-a758-c7373832ae86",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_171",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -46624,6 +46795,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -46884,7 +47056,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "50c33922-bc50-4978-b4d4-0ce9f67d5cb9",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_172",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -46903,6 +47075,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -47150,7 +47323,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "f06fc1d0-11c1-422f-97ea-8f562d88f6bd",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_173",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -47169,6 +47342,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -47429,7 +47603,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "d6e2737b-e0d7-49f5-895a-21ec9c45b4f7",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_174",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -47448,6 +47622,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -47695,7 +47870,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "62b669ec-785a-4a0a-98e5-7a8a5ecc12a6",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_175",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -47714,6 +47889,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -47974,7 +48150,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "de59597b-f017-4788-bb1d-a4e84befe6ff",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_176",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -47993,6 +48169,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -48240,7 +48417,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "32e7fda8-c594-45d1-affa-8ba9ae8ad9a5",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_177",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -48259,6 +48436,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -48519,7 +48697,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "3b7b3942-c4ed-4e1a-941a-e1c878120fc4",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_178",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -48538,6 +48716,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -48785,7 +48964,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "4f137cbe-ae21-48ad-96e4-48ad3da3c8b2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_179",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -48804,6 +48983,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -49064,7 +49244,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "ff7c6604-badc-46ff-9fb4-ae3f0dc3bbb2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_180",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -49083,6 +49263,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -49330,7 +49511,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "979ca3cd-0d87-4f1f-b4d3-b60b36c88877",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_181",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -49349,6 +49530,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -49609,7 +49791,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "603ac9c7-247e-40e6-86db-decd6e819852",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_182",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -49628,6 +49810,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -49875,7 +50058,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "539e935a-7e6e-4c2b-b8ff-0c06d18a5b84",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_183",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -49894,6 +50077,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -50154,7 +50338,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "225a6fe3-1b7a-4893-99f9-afacc5f0acfc",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_184",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -50173,6 +50357,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -50420,7 +50605,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "6e1c5447-b9f4-4d2b-b42a-9e815aca57aa",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_185",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -50439,6 +50624,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -50699,7 +50885,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "b4da4af7-a165-4381-829e-107d09f9f1d2",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_186",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -50718,6 +50904,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -50965,7 +51152,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "2f6e0317-3d5c-44f5-b0fd-bbe74f09b37c",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_187",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -50984,6 +51171,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -51244,7 +51432,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "bfbe42c1-0143-44a1-8d3d-cf3cbaa06adb",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_188",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -51263,6 +51451,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -51510,7 +51699,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "3dc189aa-b456-4dc8-8558-c6c4a850e9e1",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_189",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -51529,6 +51718,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -51789,7 +51979,7 @@
                     },
                     "measurement document": [
                         {
-                            "measurement identifier": "7015b911-d862-41dc-aefc-44d9a989029d",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_190",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 1",
                             "sample document": {
@@ -51808,6 +51998,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "VIC",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -52055,7 +52246,7 @@
                             }
                         },
                         {
-                            "measurement identifier": "bba46959-0530-486e-83a6-2a84bb3a7868",
+                            "measurement identifier": "APPBIO_QUANTSTUDIO_TEST_ID_191",
                             "measurement time": "2010-09-16T07:35:29-04:00",
                             "target DNA description": "CYP19_2-Allele 2",
                             "sample document": {
@@ -52074,6 +52265,7 @@
                                             "value": 40.0,
                                             "unit": "#"
                                         },
+                                        "reporter dye setting": "FAM",
                                         "passive reference dye setting": "ROX"
                                     }
                                 ]
@@ -52333,8 +52525,8 @@
             "UNC path": "",
             "software name": "Thermo QuantStudio",
             "software version": "1.0",
-            "ASM converter name": "allotropy",
-            "ASM converter version": "0.1.1"
+            "ASM converter name": "allotropy_appbio_quantstudio_rt_pcr",
+            "ASM converter version": "0.1.17"
         },
         "calculated data aggregate document": {
             "calculated data document": []

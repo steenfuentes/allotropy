@@ -1,4 +1,4 @@
-from typing import Union
+from datetime import timedelta
 
 from allotropy.allotrope.models.shared.definitions.custom import (
     TNullableQuantityValueCell,
@@ -15,12 +15,18 @@ from allotropy.allotrope.models.shared.definitions.custom import (
     TNullableQuantityValueUnitPerLiter,
 )
 
+# Measurements of a sample have different timestamps, typically spaced closely together (max diff observed - 9 min)
+# Some result files have multiple sets of measurements, over multiple days.
+# Measurements with a time difference greater than MAX_MEASUREMENT_TIME_GROUP_DIFFERENCE from the last
+# measurement recorded will be put into separate groups.
+MAX_MEASUREMENT_TIME_GROUP_DIFFERENCE = timedelta(hours=1)
+
 MOLAR_CONCENTRATION_CLASSES: list[
-    Union[
-        type[TNullableQuantityValueMillimolePerLiter],
-        type[TNullableQuantityValueGramPerLiter],
-        type[TNullableQuantityValueUnitPerLiter],
-    ]
+    (
+        type[TNullableQuantityValueMillimolePerLiter]
+        | type[TNullableQuantityValueGramPerLiter]
+        | type[TNullableQuantityValueUnitPerLiter]
+    )
 ] = [
     TNullableQuantityValueMillimolePerLiter,
     TNullableQuantityValueGramPerLiter,
@@ -29,7 +35,7 @@ MOLAR_CONCENTRATION_CLASSES: list[
 
 MOLAR_CONCENTRATION_CLS_BY_UNIT = {cls.unit: cls for cls in MOLAR_CONCENTRATION_CLASSES}
 
-NON_AGGREGABLE_PROPERTIES = {
+NON_ANALYTE_PROPERTIES = {
     "pco2": TNullableQuantityValueMillimeterOfMercury,
     "co2_saturation": TNullableQuantityValuePercent,
     "po2": TNullableQuantityValueMillimeterOfMercury,

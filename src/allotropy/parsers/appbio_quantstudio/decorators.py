@@ -1,4 +1,7 @@
-from typing import Any, Callable
+# mypy: disallow_any_generics = False
+
+from collections.abc import Callable
+from typing import Any
 
 
 def cache(fun: Callable) -> Callable:

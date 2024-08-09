@@ -1,7 +1,4 @@
-import io
-import uuid
-
-from allotropy.allotrope.models.cell_culture_analyzer_benchling_2023_09_cell_culture_analyzer import (
+from allotropy.allotrope.models.adm.cell_culture_analyzer.benchling._2023._09.cell_culture_analyzer import (
     AnalyteAggregateDocument,
     AnalyteDocumentItem,
     DeviceSystemDocument,
@@ -10,23 +7,39 @@ from allotropy.allotrope.models.cell_culture_analyzer_benchling_2023_09_cell_cul
     Model,
     SampleDocument,
 )
+from allotropy.named_file_contents import NamedFileContents
+from allotropy.parsers.release_state import ReleaseState
+from allotropy.parsers.roche_cedex_bioht.constants import (
+    MOLAR_CONCENTRATION_CLS_BY_UNIT,
+    NON_ANALYTE_PROPERTIES,
+)
 from allotropy.parsers.roche_cedex_bioht.roche_cedex_bioht_reader import (
     RocheCedexBiohtReader,
 )
 from allotropy.parsers.roche_cedex_bioht.roche_cedex_bioht_structure import Data, Sample
+from allotropy.parsers.utils.uuids import random_uuid_str
 from allotropy.parsers.vendor_parser import VendorParser
 
 
 class RocheCedexBiohtParser(VendorParser):
-    def _parse(self, contents: io.IOBase, filename: str) -> Model:  # noqa: ARG002
+    @property
+    def display_name(self) -> str:
+        return "Roche Cedex BioHT"
+
+    @property
+    def release_state(self) -> ReleaseState:
+        return ReleaseState.RECOMMENDED
+
+    def to_allotrope(self, named_file_contents: NamedFileContents) -> Model:
+        contents = named_file_contents.contents
         reader = RocheCedexBiohtReader(contents)
         return self._get_model(Data.create(reader))
 
     def _get_model(self, data: Data) -> Model:
         return Model(
             measurement_aggregate_document=MeasurementAggregateDocument(
-                measurement_identifier=str(uuid.uuid4()),
-                data_processing_time=self.get_date_time(
+                measurement_identifier=random_uuid_str(),
+                data_processing_time=self._get_date_time(
                     data.title.data_processing_time
                 ),
                 analyst=data.title.analyst,
@@ -47,38 +60,41 @@ class RocheCedexBiohtParser(VendorParser):
     def _get_measurements_from_sample(
         self, sample: Sample
     ) -> list[MeasurementDocumentItem]:
-        sample_measurements = [
-            self._create_sample_measurement(sample)
-            for _ in range(sample.analyte_list.num_measurement_docs)
-        ]
+        docs: list[MeasurementDocumentItem] = []
 
-        for (
-            analyte_name,
-            molar_concentrations,
-        ) in sample.analyte_list.molar_concentration_dict.items():
-            for sample_measurement, molar_concentration in zip(
-                sample_measurements, molar_concentrations
-            ):
-                sample_measurement.analyte_aggregate_document.analyte_document.append(  # type: ignore[union-attr]
-                    AnalyteDocumentItem(
-                        analyte_name=analyte_name,
-                        molar_concentration=molar_concentration,
+        for measurement_time, measurements in sample.measurements.items():
+            doc = MeasurementDocumentItem(
+                sample_document=SampleDocument(
+                    sample_identifier=sample.name,
+                    batch_identifier=sample.batch,
+                ),
+                measurement_time=self._get_date_time(measurement_time),
+                analyte_aggregate_document=AnalyteAggregateDocument(
+                    analyte_document=[]
+                ),
+            )
+            analyte_documents = []
+            for name in sorted(measurements):
+                measurement = measurements[name]
+                if analyte_cls := NON_ANALYTE_PROPERTIES.get(name):
+                    setattr(
+                        doc, name, analyte_cls(value=measurement.concentration_value)
                     )
-                )
+                else:
+                    molar_concentration_item_cls = MOLAR_CONCENTRATION_CLS_BY_UNIT.get(
+                        measurement.unit or ""
+                    )
+                    if not molar_concentration_item_cls:
+                        continue
+                    analyte_documents.append(
+                        AnalyteDocumentItem(
+                            analyte_name=name,
+                            molar_concentration=molar_concentration_item_cls(
+                                value=measurement.concentration_value
+                            ),
+                        )
+                    )
+            doc.analyte_aggregate_document.analyte_document = analyte_documents
+            docs.append(doc)
 
-        for analyte_name, values in sample.analyte_list.non_aggregrable_dict.items():
-            for sample_measurement, value in zip(sample_measurements, values):
-                setattr(sample_measurement, analyte_name, value)
-
-        return sample_measurements
-
-    def _create_sample_measurement(self, sample: Sample) -> MeasurementDocumentItem:
-        return MeasurementDocumentItem(
-            sample_document=SampleDocument(
-                sample_identifier=sample.name,
-                sample_role_type=sample.role_type,
-                batch_identifier=sample.batch,
-            ),
-            measurement_time=self.get_date_time(sample.measurement_time),
-            analyte_aggregate_document=AnalyteAggregateDocument(analyte_document=[]),
-        )
+        return docs
